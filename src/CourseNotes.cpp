@@ -34,6 +34,14 @@ Constants - values will not change during execution. either regulaor of defined 
 
 Const qualifier instead of #define - better. NB not the same in C++ as C
 
-Arrays: fixed in size, continous in memory (sequential block)
+Arrays: fixed in size, continous in memory (sequential block), NB indexed from 0. NB auto does not work for arrays. nb no ; at the end of directives (i.e. macro)
+
+// use string class rather than char arrays
+
+type casting - useful for converting data types. To explicitly cast add the type in brackets before i.e. 5 as in 5.0 can be written as (float)5
+
+//nb floating points are an approximation - a double would be a better approximation
+
+Enumerations (Enum) - define a set of name int constands, a list of idenitifiers. Typically not suitable for C++.
 
 */
