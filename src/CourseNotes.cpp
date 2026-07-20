@@ -44,4 +44,6 @@ type casting - useful for converting data types. To explicitly cast add the type
 
 Enumerations (Enum) - define a set of name int constands, a list of idenitifiers. Typically not suitable for C++.
 
+Structures: hetergenous data, for simple models
+
 */
