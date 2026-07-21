@@ -46,4 +46,22 @@ Enumerations (Enum) - define a set of name int constands, a list of idenitifiers
 
 Structures: hetergenous data, for simple models
 
+Classes contain data and functions - same as in python and java. Encapsulation; hiding the data from the pouside world. makes members private or public as needed
+
+Setters and getters - write inti fucntions and get values - used in classes.
+
+compiling code -> source -> compiler tool chain -> executable. NB make files. 
+
+Implementation and header files (headers inc class def and function declerations)
+
+Pointers - nb each int takes 4 bytes - 
+-> type_of_variable * name_of_ptr - nb pointer is a variable i.e. int a = 37 -> int*ptr 
+-> ptr&a -> where & is address of
+
+smart pointers are a safer alternative 
+
+pointers are important for dynamic memory management; malloc - memory allocation. As a programmer you need to free up memory to prevent leakage. C++ supports this and frees the memory once you dont need it - multiple levels of indirection possible
+
+References; not pointers or objects. No arrays of references and no pointers to references. Can reference to a reference. must be init at decleration. Only one level of indirection. no need to dereference. references are safer than pointers. Useful application: passing paramaters by reference (i.e. the variable passed in can be modief within the function), avoid copying large objects in for loops
+
 */
